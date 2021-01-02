@@ -61,7 +61,7 @@ func loadPlugins(repoPath string) (*loader.PluginLoader, error) {
 	return plugins, nil
 }
 
-// main roadmap:
+// main roadmap: process door
 // - parse the commandline to get a cmdInvocation
 // - if user requests help, print it and exit.
 // - run the command invocation
